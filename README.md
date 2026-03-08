@@ -23,7 +23,7 @@ This project implements a system that turns scattered GitHub issues into a **Gro
    ```
 
 4. **Corpus Download (Github Issues)**
-You find this corpus in kaggle about Github Issues uploaded by David Shinn.The link is: "https://www.kaggle.com/datasets/davidshinn/github-issues".which is going to be a zip containing a large size CSV file.
+You can find this corpus in kaggle about Github Issues uploaded by David Shinn.The link is: "https://www.kaggle.com/datasets/davidshinn/github-issues"  which is going to be a zip containing a large size CSV file.
 
 ### 3. Running the Pipeline (End-to-End)
 The pipeline is divided into numbered scripts to ensure reproducibility. To build the memory from scratch, run them in order:
@@ -85,4 +85,5 @@ The system implements **Conflict Resolution**. If a new issue (dated Jan 5) says
 - `Final_report.md`: Strategic analysis of production adaptation.
 - `Visualization_Sample.mp4`: A sample video showcasing the Visualization part using 'streamlit'
 - `requirements.txt`: Showcasing the libraries needed to be downloaded to run these files
+
 - `generate_context_packs.py`: Used for testing context packs where test output is "Data/example_context_packs.json"
