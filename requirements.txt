@@ -1,0 +1,9 @@
+google-genai
+groq
+pandas
+rapidfuzz
+streamlit
+pyvis
+python-dotenv
+networkx
+langdetect

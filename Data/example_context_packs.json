@@ -1,0 +1,60 @@
+[
+    {
+        "query": "What is the current status of the React setup on Windows?",
+        "memories": [
+            {
+                "fact": "The React setup is now fixed on Windows",
+                "status": "CURRENT",
+                "confidence": 0.9,
+                "all_grounding": [
+                    {
+                        "quote": "setup is now fixed",
+                        "source_url": "https://github.com/test/issue3",
+                        "timestamp": "2024-01-05T10:00:00Z"
+                    }
+                ],
+                "history_count": 0
+            },
+            {
+                "fact": "React installation is broken on Windows systems",
+                "status": "HISTORICAL (Superseded by https://github.com/test/issue3)",
+                "confidence": 0.9,
+                "all_grounding": [
+                    {
+                        "quote": "fails on win10",
+                        "source_url": "https://github.com/test/issue1",
+                        "timestamp": "2024-01-01T10:00:00Z"
+                    },
+                    {
+                        "quote": "installation is broken on Windows",
+                        "source_url": "https://github.com/test/issue2",
+                        "timestamp": "2024-01-02T10:00:00Z"
+                    }
+                ],
+                "history_count": 1
+            }
+        ]
+    },
+    {
+        "query": "Tell me about the compilation issues found on Gentoo.",
+        "memories": [
+            {
+                "fact": "Compiling Keybase on Gentoo is not working",
+                "status": "CURRENT",
+                "confidence": 0.9,
+                "all_grounding": [
+                    {
+                        "quote": "compiling keybase on gentoo results in go/teams/handler.go:19: cannot use func literal type func context .context, int error as type func github.com/keybase/client/go/vendor/golang.org/x/net/context .context, int error in argument to retryonsigoldseqnoerror",
+                        "source_url": "\"https://github.com/keybase/client/issues/9811\"",
+                        "timestamp": "2017-12-06T10:30:23Z"
+                    }
+                ],
+                "history_count": 0
+            }
+        ]
+    },
+    {
+        "query": "How do I bake a chocolate cake?",
+        "memories": []
+    }
+]

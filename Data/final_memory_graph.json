@@ -1,0 +1,2390 @@
+[
+    {
+        "text": "The narrator focus does not retain on the expand side of a documentation button after pressing enter on the collapse side of a documentation button.",
+        "entity": "User",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-27T10:08:04Z",
+        "evidence": [
+            {
+                "quote": "8-verify narrator focus moving or not on expand side a documentation button after pressing enter on collapse side a documentation button. actual result narrator focus does not retain on expand side a documentation button after pressing enter on collapse side a documentation button.",
+                "source": "\"https://github.com/Microsoft/pxt/issues/2543\"",
+                "timestamp": "2017-07-27T10:08:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The searching process takes a long time",
+        "entity": "User",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-30T11:17:44Z",
+        "evidence": [
+            {
+                "quote": "usability: how long the searching process takes before and after satisfaction",
+                "source": "\"https://github.com/alex855k/S3ExamProject/issues/12\"",
+                "timestamp": "2017-10-30T11:17:44Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A welcome message is displayed upon landing at the site.",
+        "entity": "User",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-05T22:03:48Z",
+        "evidence": [
+            {
+                "quote": "as a user: - i see a welcome message upon landing at the site.",
+                "source": "\"https://github.com/thetrevlore/Grace-Shopper/issues/44\"",
+                "timestamp": "2017-11-05T22:03:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There is a concept of 'user story' in software development",
+        "entity": "User",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-27T13:38:01Z",
+        "evidence": [
+            {
+                "quote": "user story acceptance criteria definition of done",
+                "source": "\"https://github.com/ValtechPhoang/MyRepository/issues/18\"",
+                "timestamp": "2017-09-27T13:38:01Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "As a user, I want to add a step so I can",
+        "entity": "User",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-10T14:27:36Z",
+        "evidence": [
+            {
+                "quote": "As a user, i want to add a step so i can",
+                "source": "\"https://github.com/SIU-CS/Flowchart-Creator-production/issues/14\"",
+                "timestamp": "2017-02-10T14:27:36Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Trying to access the key prop directly will result in undefined being returned.",
+        "entity": "React",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-23T04:42:38Z",
+        "evidence": [
+            {
+                "quote": "trying to access it will result in undefined being returned.",
+                "source": "\"https://github.com/whoisandie/react-blocks/issues/12\"",
+                "timestamp": "2017-05-23T04:42:38Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "React installation is broken on Windows systems",
+        "entity": "React",
+        "status": "HISTORICAL (Superseded by https://github.com/test/issue3)",
+        "is_current": false,
+        "created_at": "2024-01-01T10:00:00Z",
+        "evidence": [
+            {
+                "quote": "fails on win10",
+                "source": "https://github.com/test/issue1",
+                "timestamp": "2024-01-01T10:00:00Z"
+            },
+            {
+                "quote": "installation is broken on Windows",
+                "source": "https://github.com/test/issue2",
+                "timestamp": "2024-01-02T10:00:00Z"
+            }
+        ],
+        "merge_history": [
+            {
+                "original_text": "React installation is broken on Windows systems",
+                "source": "https://github.com/test/issue2",
+                "reason": "SAME",
+                "timestamp": "2024-01-02T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "text": "The React setup is now fixed on Windows",
+        "entity": "React",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2024-01-05T10:00:00Z",
+        "evidence": [
+            {
+                "quote": "setup is now fixed",
+                "source": "https://github.com/test/issue3",
+                "timestamp": "2024-01-05T10:00:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The user is using Chrome as their browser.",
+        "entity": "Facebook",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-15T16:40:24Z",
+        "evidence": [
+            {
+                "quote": "browserchrome 62.0.3202.94",
+                "source": "\"https://github.com/garygaspar/issue-tracker-repo/issues/2\"",
+                "timestamp": "2017-12-15T16:40:24Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The Alamofire cannot work with Carthage.",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-25T10:04:38Z",
+        "evidence": [
+            {
+                "quote": "there is some trouble that the alamofire cann't work with carthage",
+                "source": "\"https://github.com/Alamofire/Alamofire/issues/2398\"",
+                "timestamp": "2017-12-25T10:04:38Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Three ashwalkers attacked a goliath with spears and pickaxes.",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-15T18:58:48Z",
+        "evidence": [
+            {
+                "quote": "3 ashwalkers took on a goliath, attacking it with spears and pickaxes.",
+                "source": "\"https://github.com/tgstation/tgstation/issues/29286\"",
+                "timestamp": "2017-07-15T18:58:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The question is about class-names",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-30T10:30:36Z",
+        "evidence": [
+            {
+                "quote": "hello, simple question: what does j and l stand for in class-names?",
+                "source": "\"https://github.com/QuickBlox/q-municate-web/issues/105\"",
+                "timestamp": "2017-04-30T10:30:36Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The correct value for company user_id is to be determined",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-05T11:29:42Z",
+        "evidence": [
+            {
+                "quote": "- companies - x create - determine what the correct value is for company user_id",
+                "source": "\"https://github.com/justarrived/just_match_api/issues/861\"",
+                "timestamp": "2017-02-05T11:29:42Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Images and their parts (background, foreground/content) can be separated",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-17T17:40:53Z",
+        "evidence": [
+            {
+                "quote": "image - background - foreground/content svg separate from image",
+                "source": "\"https://github.com/constelation/monorepo/issues/74\"",
+                "timestamp": "2017-04-17T17:40:53Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The code returns standard errors",
+        "entity": "GitHub",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-06T21:51:47Z",
+        "evidence": [
+            {
+                "quote": "according to the demo, this code returns standard errors",
+                "source": "\"https://github.com/williamaeberhard/glmrob.nb/issues/1\"",
+                "timestamp": "2017-09-06T21:51:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Compiling Keybase on Gentoo is not working",
+        "entity": "Keybase",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-06T10:30:23Z",
+        "evidence": [
+            {
+                "quote": "compiling keybase on gentoo results in go/teams/handler.go:19: cannot use func literal type func context .context, int error as type func github.com/keybase/client/go/vendor/golang.org/x/net/context .context, int error in argument to retryonsigoldseqnoerror",
+                "source": "\"https://github.com/keybase/client/issues/9811\"",
+                "timestamp": "2017-12-06T10:30:23Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "module vydiarnfileuploader requires main queue setup",
+        "entity": "React Native",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-04T07:51:34Z",
+        "evidence": [
+            {
+                "quote": "module vydiarnfileuploader requires main queue setup since it overrides init but doesn't implement requiresmainqueuesetup.",
+                "source": "\"https://github.com/Vydia/react-native-background-upload/issues/52\"",
+                "timestamp": "2017-12-04T07:51:34Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The bug-tracker is monitored by developers and other technical types.",
+        "entity": "Windows",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-14T17:17:25Z",
+        "evidence": [
+            {
+                "quote": "this bug-tracker is monitored by developers and other technical types.",
+                "source": "\"https://github.com/Microsoft/WSL/issues/2666\"",
+                "timestamp": "2017-11-14T17:17:25Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The app is called all 4.",
+        "entity": "Channel 4",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-08T21:19:28Z",
+        "evidence": [
+            {
+                "quote": "app name: all 4",
+                "source": "\"https://github.com/glasklart/hd/issues/8877\"",
+                "timestamp": "2017-02-08T21:19:28Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Contributing to the f API is something that might be of interest.",
+        "entity": "f API",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-05T08:02:01Z",
+        "evidence": [
+            {
+                "quote": "hi, i wonder if contributing to an f api is something you might be interested in?",
+                "source": "\"https://github.com/AsynkronIT/protoactor-dotnet/issues/217\"",
+                "timestamp": "2017-05-05T08:02:01Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "should return users that created the post before 1/1/15",
+        "entity": "users",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-28T06:56:32Z",
+        "evidence": [
+            {
+                "quote": "should return users that created the post before 1/1/15",
+                "source": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/3\"",
+                "timestamp": "2017-07-28T06:56:32Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The information should be referenced from posts.",
+        "entity": "posts",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-28T07:02:18Z",
+        "evidence": [
+            {
+                "quote": "should be referencing from posts",
+                "source": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/5\"",
+                "timestamp": "2017-07-28T07:02:18Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "QP was introduced as the family of continuous and mixed-integer optimization problems.",
+        "entity": "QP",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-27T14:46:16Z",
+        "evidence": [
+            {
+                "quote": "in the abstract, qp was introduced as the family of continuous and mixed -integer optimization problems.",
+                "source": "\"https://github.com/fabiofurini/QPLIB/issues/1\"",
+                "timestamp": "2017-01-27T14:46:16Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Skills are to be explained in a q&a format.",
+        "entity": "data design code",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-26T08:28:53Z",
+        "evidence": [
+            {
+                "quote": "make a short q&a about major, 'data design code,' etc to explain my skills more.",
+                "source": "\"https://github.com/jmithani/website/issues/35\"",
+                "timestamp": "2017-02-26T08:28:53Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "authorize! raises a 'not authorized error'",
+        "entity": "vesta/production",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-09T01:48:47Z",
+        "evidence": [
+            {
+                "quote": "authorize! view full backtrace and more info at honeybadger.io",
+                "source": "\"https://github.com/YaleSTC/vesta/issues/581\"",
+                "timestamp": "2017-04-09T01:48:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Log Viewer version is 4.4",
+        "entity": "arcanedev",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-30T23:17:54Z",
+        "evidence": [
+            {
+                "quote": "- logviewer version: 4.4",
+                "source": "\"https://github.com/ARCANEDEV/LogViewer/issues/183\"",
+                "timestamp": "2017-12-30T23:17:54Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Unauthenticated requests are handled with a 401 status code.",
+        "entity": "SecurityContext",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-08T15:04:28Z",
+        "evidence": [
+            {
+                "quote": "when we trying to send a request without token, we got 400 missing request header '${ft.token.header}' for method parameter of type string",
+                "source": "\"https://github.com/Romm17/FriendTreasuryAPI/issues/15\"",
+                "timestamp": "2017-11-08T15:04:28Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "\u0280 is the IPA symbol for an uvular trill.",
+        "entity": "\u0280",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-16T15:15:11Z",
+        "evidence": [
+            {
+                "quote": "\u0280 which is the ipa symbol for an uvular trill.",
+                "source": "\"https://github.com/Anaphory/lexirumah-data/issues/7\"",
+                "timestamp": "2017-05-16T15:15:11Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "R is one of the best statistical and mathematics tools.",
+        "entity": "r",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-25T14:00:35Z",
+        "evidence": [
+            {
+                "quote": "and mathematics tools was not requested. I was surprised to see one of the best statistical and mathematics tools was not requested.",
+                "source": "\"https://github.com/keeferrourke/la-capitaine-icon-theme/issues/256\"",
+                "timestamp": "2017-10-25T14:00:35Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "format the calendar appearance",
+        "entity": "calendar",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-15T23:58:56Z",
+        "evidence": [
+            {
+                "quote": "format the calendar appearance and visual also color coding busy/free time",
+                "source": "\"https://github.com/CS3398-Rust-Buckets/S2017/issues/23\"",
+                "timestamp": "2017-02-15T23:58:56Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Create a folder structure with database, public, src, and tests folders.",
+        "entity": "samerelaila",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-22T09:03:59Z",
+        "evidence": [
+            {
+                "quote": "create folder structure like: database folder, for build database and connection public folder, for the client side src folder, for the server side and tests folder for test",
+                "source": "\"https://github.com/FACG2/Blog/issues/2\"",
+                "timestamp": "2017-08-22T09:03:59Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "complete form validations for the registrations form",
+        "entity": "ronitron007",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-07T07:40:55Z",
+        "evidence": [
+            {
+                "quote": "complete form validations for the registrations form, if not done, once 2 is closed.",
+                "source": "\"https://github.com/ShaastraWebops/summitregistations-2018/issues/3\"",
+                "timestamp": "2017-07-07T07:40:55Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The log in process should trigger a GET API call.",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-23T05:41:44Z",
+        "evidence": [
+            {
+                "quote": "log in process should trigger a GET API call to pull out user information",
+                "source": "\"https://github.com/MikeSmvl/classifieds/issues/13\"",
+                "timestamp": "2017-09-23T05:41:44Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Some people upload projects to Google Play.",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-15T07:59:32Z",
+        "evidence": [
+            {
+                "quote": "some people upload this project at theirs google play account",
+                "source": "\"https://github.com/ChristopherBThai/TapMove/issues/9\"",
+                "timestamp": "2017-04-15T07:59:32Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Users can register",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-25T18:24:28Z",
+        "evidence": [
+            {
+                "quote": "- user can register",
+                "source": "\"https://github.com/vishnuvenugopal007/CAMP/issues/19\"",
+                "timestamp": "2017-07-25T18:24:28Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Select query syntax can be modified to get the desired result.",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-02T09:37:58Z",
+        "evidence": [
+            {
+                "quote": "suggest you modify the 251 1ine on heading.java or selectparser.java",
+                "source": "\"https://github.com/Anchormen/sql4es/issues/41\"",
+                "timestamp": "2017-09-02T09:37:58Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Frequency analysis needs to be based on distance and period.",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-15T02:34:09Z",
+        "evidence": [
+            {
+                "quote": "&lt;d&gt;> &lt;p&gt; perform frequency analysis based on distance and period",
+                "source": "\"https://github.com/FYP17-4G/Aardvark/issues/5\"",
+                "timestamp": "2017-12-15T02:34:09Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A full screen map is to be added to the game.",
+        "entity": "people",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-02T14:22:57Z",
+        "evidence": [
+            {
+                "quote": "add a full screen map in the game!",
+                "source": "\"https://github.com/CUModSquad/Camelot-Unchained/issues/118\"",
+                "timestamp": "2017-05-02T14:22:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Create two classes: Food and Fruit in a program file.",
+        "entity": "Github Issue",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-24T17:27:02Z",
+        "evidence": [
+            {
+                "quote": "- in a program file, create two classes: food and fruit-",
+                "source": "\"https://github.com/keryl/2017-03-24/issues/3\"",
+                "timestamp": "2017-03-24T17:27:02Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "How to send a new line in the message?",
+        "entity": "Github Issue",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-28T15:56:04Z",
+        "evidence": [
+            {
+                "quote": "how can i send the new line in the message?",
+                "source": "\"https://github.com/fabianonline/telegram.sh/issues/1\"",
+                "timestamp": "2017-12-28T15:56:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Corrective action steps were not saved for viewing.",
+        "entity": "Stephen Jackson",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-03T16:46:56Z",
+        "evidence": [
+            {
+                "quote": "'thanks, log out and go back in to view if items were saved for viewing....they were not...' (Issue Title)",
+                "source": "\"https://github.com/gatewayapps/ims-feedback/issues/69\"",
+                "timestamp": "2017-05-03T16:46:56Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The code encountered a runtime error while executing a command.",
+        "entity": "hybox",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-10T02:18:55Z",
+        "evidence": [
+            {
+                "quote": "hybox/production runtimeerror: unable to execute command fits.sh -i /tmp/5999n337h20170210-24928-1u5s5yw20170210-24928-1nf4p5s",
+                "source": "\"https://github.com/projecthydra-labs/hyku/issues/763\"",
+                "timestamp": "2017-02-10T02:18:55Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Once the process of filling up the form is started, the heading of the field is used to fill the relevant fields using the 'name' attribute",
+        "entity": "mechanize",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-30T11:55:04Z",
+        "evidence": [
+            {
+                "quote": "once we start the process of filling up the form i use the heading of the field to fill the relevant fields using \u2018name\u2019 attribute:",
+                "source": "\"https://github.com/shashiRS/python/issues/6\"",
+                "timestamp": "2017-10-30T11:55:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "This issue is about a problem missing a link to the Hackerrank Euler problem.",
+        "entity": "HackerRank",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-03T15:56:28Z",
+        "evidence": [
+            {
+                "quote": "this issue is about problem no link to the hackerrank euler problem",
+                "source": "\"https://github.com/vaibhav29498/HackerrankProjectEuler/issues/8\"",
+                "timestamp": "2017-10-03T15:56:28Z"
+            },
+            {
+                "quote": "this issue is about problem no link to the hackerrank euler problem .",
+                "source": "\"https://github.com/vaibhav29498/HackerrankProjectEuler/issues/26\"",
+                "timestamp": "2017-10-06T16:15:43Z"
+            }
+        ],
+        "merge_history": [
+            {
+                "original_text": "This issue is about a problem missing a link to the Hackerrank Euler problem.",
+                "source": "\"https://github.com/vaibhav29498/HackerrankProjectEuler/issues/26\"",
+                "reason": "SAME",
+                "timestamp": "2017-10-06T16:15:43Z"
+            }
+        ]
+    },
+    {
+        "text": "Games crashing is a high-priority issue.",
+        "entity": "game",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-09T11:19:59Z",
+        "evidence": [
+            {
+                "quote": ">issue type a: game crashing, it has the highest priority and should be detected and dealt with during feature development, prior to release preparation.",
+                "source": "\"https://github.com/AwayFromKeyboard/Project-2_The-Lost-Lands-of-Khanelyf/issues/95\"",
+                "timestamp": "2017-05-09T11:19:59Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "zap is a lightning fast web framework",
+        "entity": "zap",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-05T15:27:27Z",
+        "evidence": [
+            {
+                "quote": "zap is a lightning fast web framework that is up to 2.8times faster than iron which is based on hyper.",
+                "source": "\"https://github.com/rust-unofficial/awesome-rust/issues/348\"",
+                "timestamp": "2017-10-05T15:27:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The checklist button doesn't disappear during cutscenes.",
+        "entity": "checklist button",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-23T20:36:28Z",
+        "evidence": [
+            {
+                "quote": "the checklist button doesn't disappear during cutscenes.",
+                "source": "\"https://github.com/gunnargolf/DynamicChecklist/issues/1\"",
+                "timestamp": "2017-05-23T20:36:28Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The issue is related to missing banner comments in the mainframe.java file at line 339.",
+        "entity": "mainframe",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-21T04:54:48Z",
+        "evidence": [
+            {
+                "quote": "mainframe.java line 339 missing banner comments for method definition",
+                "source": "\"https://github.com/nshantz/ser316labcr/issues/21\"",
+                "timestamp": "2017-02-21T04:54:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "account.java line 5 is missing banner comments for class definition",
+        "entity": "account.java",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-21T04:55:25Z",
+        "evidence": [
+            {
+                "quote": "account.java line 5 missing banner comments for class definition",
+                "source": "\"https://github.com/nshantz/ser316labcr/issues/23\"",
+                "timestamp": "2017-02-21T04:55:25Z"
+            },
+            {
+                "quote": "description: missing or incorrect method banner comment",
+                "source": "\"https://github.com/ajgaetan/ser316labcr/issues/3\"",
+                "timestamp": "2017-02-17T21:31:35Z"
+            }
+        ],
+        "merge_history": [
+            {
+                "original_text": "Missing or incorrect method banner comments are an issue.",
+                "source": "\"https://github.com/ajgaetan/ser316labcr/issues/3\"",
+                "reason": "SAME",
+                "timestamp": "2017-02-17T21:31:35Z"
+            }
+        ]
+    },
+    {
+        "text": "The electron-cash wallet generates a new send address every time by default.",
+        "entity": "electron-cash",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-11T15:25:40Z",
+        "evidence": [
+            {
+                "quote": "then i decided to shape-shift some of my bch to btc, by mistake i put in the receiving address the old send address from my electron-cash wallet",
+                "source": "\"https://github.com/kmazurek93/electronic-cash/issues/1\"",
+                "timestamp": "2017-10-11T15:25:40Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A log file is to be implemented to keep track of printer commands.",
+        "entity": "j",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-11T01:18:26Z",
+        "evidence": [
+            {
+                "quote": "implement log for j to better see exactly what commands the printer did to a log file.",
+                "source": "\"https://github.com/smarion2/ZebraMimic/issues/4\"",
+                "timestamp": "2017-07-11T01:18:26Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "a namelist is needed for kor",
+        "entity": "kor zen",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-06-19T20:41:57Z",
+        "evidence": [
+            {
+                "quote": "add a namelist for kor",
+                "source": "\"https://github.com/incomingstick/OpenRPG/issues/75\"",
+                "timestamp": "2017-06-19T20:41:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "void should be defined as void.",
+        "entity": "void",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-05T00:07:18Z",
+        "evidence": [
+            {
+                "quote": "what actually should be void?",
+                "source": "\"https://github.com/ABuarque/huffman/issues/3\"",
+                "timestamp": "2017-11-05T00:07:18Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Unknown Claim",
+        "entity": "search text field",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-23T06:08:17Z",
+        "evidence": [
+            {
+                "quote": "No quote",
+                "source": "\"https://github.com/MikeSmvl/classifieds/issues/21\"",
+                "timestamp": "2017-09-23T06:08:17Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Unknown Claim",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-23T06:10:53Z",
+        "evidence": [
+            {
+                "quote": "No quote",
+                "source": "\"https://github.com/MikeSmvl/classifieds/issues/22\"",
+                "timestamp": "2017-09-23T06:10:53Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "the render needs a catch to throw errors",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-19T01:14:48Z",
+        "evidence": [
+            {
+                "quote": "the render needs a catch to throw errors.",
+                "source": "\"https://github.com/clay/amphora-html/issues/8\"",
+                "timestamp": "2017-08-19T01:14:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Unknown Claim",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-02T01:51:27Z",
+        "evidence": [
+            {
+                "quote": "No quote",
+                "source": "\"https://github.com/novucs/factions-top/issues/25\"",
+                "timestamp": "2017-05-02T01:51:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Styles of ul and ol are overridden by reset css.",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-14T14:06:58Z",
+        "evidence": [
+            {
+                "quote": "the style of ul or ol will not apply for it. because of reset css override the style of them.",
+                "source": "\"https://github.com/summernote/summernote/issues/2327\"",
+                "timestamp": "2017-05-14T14:06:58Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Re-applying styles of ul and ol with !important is necessary.",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-14T14:06:58Z",
+        "evidence": [
+            {
+                "quote": "you should stype it again in the library and make style !important",
+                "source": "\"https://github.com/summernote/summernote/issues/2327\"",
+                "timestamp": "2017-05-14T14:06:58Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Unknown Claim",
+        "entity": "General",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-04T02:15:20Z",
+        "evidence": [
+            {
+                "quote": "No quote",
+                "source": "\"https://github.com/riderkick/FMD/issues/730\"",
+                "timestamp": "2017-09-04T02:15:20Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "this issue is about trie from wikipedia",
+        "entity": "x",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-17T21:42:05Z",
+        "evidence": [
+            {
+                "quote": "this issue is about trie https://en.wikipedia.org/wiki/trie . ",
+                "source": "\"https://github.com/iiitv/algos/issues/546\"",
+                "timestamp": "2017-10-17T21:42:05Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There exists a UI/UX library for ReactJS.",
+        "entity": "ReactJS",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-11T16:37:29Z",
+        "evidence": [
+            {
+                "quote": "ui / ux library of reactjs",
+                "source": "\"https://github.com/react-boilerplate/react-boilerplate/issues/1889\"",
+                "timestamp": "2017-08-11T16:37:29Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A customer can be created or found based on a form submission.",
+        "entity": "Customer",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-16T14:23:49Z",
+        "evidence": [
+            {
+                "quote": "create or find customer based on form submission",
+                "source": "\"https://github.com/charliecorrigan/threedqueue/issues/47\"",
+                "timestamp": "2017-09-16T14:23:49Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "we should use zeit/pkg in the same way we use it on zeit/now-cli",
+        "entity": "zeit/pkg",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2016-09-26T21:41:40Z",
+        "evidence": [
+            {
+                "quote": "we should use zeit/pkg https://github.com/zeit/pkg in the same way we use it on zeit/now-cli https://github.com/zeit/now-cli",
+                "source": "\"https://github.com/zeit/now/issues/43\"",
+                "timestamp": "2016-09-26T21:41:40Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "If someone puts .. as an entry, it looks like just freezes.",
+        "entity": "someone",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-07T21:02:23Z",
+        "evidence": [
+            {
+                "quote": "if someone puts .. as an entry, it looks like it just freezes.",
+                "source": "\"https://github.com/antoniosenra/N-A/issues/2\"",
+                "timestamp": "2017-01-07T21:02:23Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "documents describing workflow, assumptions, metadata requirements, terminology, model, restrictions, docker workflow needs to be created",
+        "entity": "workflow",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-21T21:12:27Z",
+        "evidence": [
+            {
+                "quote": "- documents describing work flow, assumptions, metadata requirements, terminology, model, restrictions, docker workflow",
+                "source": "\"https://github.com/overture-stack/SONG/issues/138\"",
+                "timestamp": "2017-12-21T21:12:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Administrative boundaries need to be specified on the API.",
+        "entity": "api",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-03T07:58:46Z",
+        "evidence": [
+            {
+                "quote": "problem we need to be able to specify the administrative boundaries on the api when doing a request.",
+                "source": "\"https://github.com/kartoza/osm-reporter/issues/101\"",
+                "timestamp": "2017-04-03T07:58:46Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "the api looks much more flexible than most of the other pathfinding libs i've seen out there",
+        "entity": "api",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-12T01:11:03Z",
+        "evidence": [
+            {
+                "quote": "this looks much more flexible than most of the other pathfinding libs i've seen out there",
+                "source": "\"https://github.com/lowlighter/astar/issues/1\"",
+                "timestamp": "2017-07-12T01:11:03Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "need api update",
+        "entity": "api",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-18T06:36:48Z",
+        "evidence": [
+            {
+                "quote": "any chance you're still around to update this for mintaka?",
+                "source": "\"https://github.com/omni-/Replenisher/issues/3\"",
+                "timestamp": "2017-02-18T06:36:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The author is thinking of making changes to PR 65.",
+        "entity": "@spl0k",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-13T11:29:04Z",
+        "evidence": [
+            {
+                "quote": "i'm thinking to touch to all message flashing to add categories and have different colors that depends of importance of message",
+                "source": "\"https://github.com/spl0k/supysonic/issues/66\"",
+                "timestamp": "2017-07-13T11:29:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The author attended a meetup on October 28th at 5 pm.",
+        "entity": "BeerJS",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-23T19:44:23Z",
+        "evidence": [
+            {
+                "quote": "october 28, saturday. 5 pm.",
+                "source": "\"https://github.com/beerjs/togliatti/issues/2\"",
+                "timestamp": "2017-10-23T19:44:23Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "drake can segment data and process each part individually.",
+        "entity": "drake",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-28T20:27:57Z",
+        "evidence": [
+            {
+                "quote": "one of the reasons that i was drawn to drake in the first place was the idea that i could segment my data, and let my machine work on each part individually",
+                "source": "\"https://github.com/wlandau-lilly/drake/issues/77\"",
+                "timestamp": "2017-08-28T20:27:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Using 'em' instead of 'px' can make the site work more responsively and be less rigid.",
+        "entity": "EM",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-21T16:37:47Z",
+        "evidence": [
+            {
+                "quote": "try using em to help make site work more responsively and be less rigid.",
+                "source": "\"https://github.com/ChristopherSClosser/Portfolio/issues/10\"",
+                "timestamp": "2017-03-21T16:37:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Setting controller direction in `pid::setcontrollerdirection` tries to switch `kp`, `ki`, `kd` from plus to minus within the constructor before they are filled up by `pid::settunings`.",
+        "entity": "Arduino",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-03T00:38:14Z",
+        "evidence": [
+            {
+                "quote": "pid::setcontrollerdirection controllerdirection ; pid::settunings kp, ki, kd ; work on uninitialised kp, ki, kd because setcontrollerdirection tries to switch them from plus to minus within the constructor before they are filled up by settunings",
+                "source": "\"https://github.com/br3ttb/Arduino-PID-Library/issues/55\"",
+                "timestamp": "2017-02-03T00:38:14Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A discussion on https://communautes-toulouse.slack.com/archives/c6v8x4an5/p1512052418000503 was opened",
+        "entity": "communautes-toulouse",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-30T15:18:11Z",
+        "evidence": [
+            {
+                "quote": "discuss opened following discussion on https://communautes-toulouse.slack.com/archives/c6v8x4an5/p1512052418000503",
+                "source": "\"https://github.com/MoOx/react-toulouse/issues/1\"",
+                "timestamp": "2017-11-30T15:18:11Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The topics for the fourth meetup haven't been decided yet.",
+        "entity": "xxx",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-19T09:29:45Z",
+        "evidence": [
+            {
+                "quote": "all things related to making the fourth meetup happen. topics - best talk ever, by xxx _another great talk!_ - best talk ever, by xxx _another great talk!_",
+                "source": "\"https://github.com/pydatazrh/meetup/issues/13\"",
+                "timestamp": "2017-01-19T09:29:45Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The plan is to gather parts to turbo the NA engine",
+        "entity": "Nickel Performance",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-10T21:24:20Z",
+        "evidence": [
+            {
+                "quote": "'plan is to gather parts to turbo the z.",
+                "source": "\"https://github.com/tixxit/300zx/issues/31\"",
+                "timestamp": "2017-11-10T21:24:20Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Reza is active on GitHub",
+        "entity": "Reza",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-12T21:54:15Z",
+        "evidence": [
+            {
+                "quote": "nice job reza, sorry to open ticket for my note, but i it was supersize to me to find you here",
+                "source": "\"https://github.com/DANA-Laboratory/rfpcsurvay/issues/1\"",
+                "timestamp": "2017-02-12T21:54:15Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "In some examples, nil is treated as undefined in function inputs.",
+        "entity": "nil",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-21T10:41:47Z",
+        "evidence": [
+            {
+                "quote": "i see that in some examples nil is treated as undefined in function inputs",
+                "source": "\"https://github.com/bloomberg/bucklescript/issues/1099\"",
+                "timestamp": "2017-01-21T10:41:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A sales and inventory management system has been proposed.",
+        "entity": "proposal",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-31T07:49:35Z",
+        "evidence": [
+            {
+                "quote": "proposals soap shack sales and inventory management system - how would this app actually work?",
+                "source": "\"https://github.com/sieghartkun/Proposals/issues/1\"",
+                "timestamp": "2017-08-31T07:49:35Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Each column is guaranteed to be unique.",
+        "entity": "id",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-13T02:31:27Z",
+        "evidence": [
+            {
+                "quote": "because each column is guaranteed to be unique, we can actually use ids for most things by just continuing to pass the current component position down.",
+                "source": "\"https://github.com/marrus-sh/mastodon-go/issues/55\"",
+                "timestamp": "2017-11-13T02:31:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "StackEdit version 4 opens instead of version 5 when reading a file from the drive.",
+        "entity": "StackEdit",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-10T07:48:07Z",
+        "evidence": [
+            {
+                "quote": "when i want to read a file saved on my drive the v4 of stackedit instead v5 opens.",
+                "source": "\"https://github.com/benweet/stackedit/issues/1152\"",
+                "timestamp": "2017-11-10T07:48:07Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The project is good for monetization.",
+        "entity": "Meta Search",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-16T20:58:03Z",
+        "evidence": [
+            {
+                "quote": "your project is good for monetisation.",
+                "source": "\"https://github.com/e-travel/codechallenge2/issues/1\"",
+                "timestamp": "2017-05-16T20:58:03Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The issue is related to freezing a set of connections between two dense layers while training.",
+        "entity": "Fchollet",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-20T11:50:27Z",
+        "evidence": [
+            {
+                "quote": "i need to freeze a set of connection between two dense layers while training.",
+                "source": "\"https://github.com/fchollet/keras/issues/6333\"",
+                "timestamp": "2017-04-20T11:50:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The user \"sniper\" caught a NidoranMale using an Ultraball.",
+        "entity": "sniper",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-28T10:48:24Z",
+        "evidence": [
+            {
+                "quote": "16:18:17 pkmn catchsuccess | normal nidoranmale lvl: 22 cp: 398/529 iv: 51.00% | chance: 39.34% | 10.76m dist | with a ultraball",
+                "source": "\"https://github.com/Necrobot-Private/NecroBot/issues/664\"",
+                "timestamp": "2017-01-28T10:48:24Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The name was changed from 'project-1' to 'org/project-1'",
+        "entity": "project-1",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-17T02:18:10Z",
+        "evidence": [
+            {
+                "quote": "i accidently change the name from project-1 to org/project-1",
+                "source": "\"https://github.com/AdamNowotny/BuildReactor/issues/73\"",
+                "timestamp": "2017-08-17T02:18:10Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The user's Mi6 Touchscreen not working",
+        "entity": "mi6",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-11T14:22:47Z",
+        "evidence": [
+            {
+                "quote": "bootui doesn't work touch screen on mi6.",
+                "source": "\"https://github.com/chenxiaolong/DualBootPatcher/issues/866\"",
+                "timestamp": "2017-11-11T14:22:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Creating a new branch will be easier to integrate as a VST/Virtual MIDI device",
+        "entity": "c",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-16T05:35:29Z",
+        "evidence": [
+            {
+                "quote": "it will be easier to integrate as a vst/virtual midi device if it's in c/c++",
+                "source": "\"https://github.com/milkey-mouse/swood/issues/26\"",
+                "timestamp": "2017-08-16T05:35:29Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Player can teleport to the air when jumping while writing",
+        "entity": "Steam",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-29T22:53:07Z",
+        "evidence": [
+            {
+                "quote": "hardy my other name : if player jumping while i'n writing !circle, player teleporting to air",
+                "source": "\"https://github.com/shanapu/MyCircle/issues/2\"",
+                "timestamp": "2017-07-29T22:53:07Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "room charge rerolls the player's hearts into random hearts",
+        "entity": "Player",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-05T14:54:08Z",
+        "evidence": [
+            {
+                "quote": "room charge rerolls the player's hearts into random hearts",
+                "source": "\"https://github.com/AgonyTeam/Agony/issues/166\"",
+                "timestamp": "2017-02-05T14:54:08Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Npcs can auto-attack an event.",
+        "entity": "Player",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-05T04:00:59Z",
+        "evidence": [
+            {
+                "quote": "could add a behavior for npcs to auto-attack when an event is triggered.",
+                "source": "\"https://github.com/shawncplus/ranviermud/issues/176\"",
+                "timestamp": "2017-03-05T04:00:59Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There are two problems when using the Lua function.",
+        "entity": "Lua",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-11T10:41:37Z",
+        "evidence": [
+            {
+                "quote": "hi, i found two problems when i used it.",
+                "source": "\"https://github.com/neolithos/neolua/issues/52\"",
+                "timestamp": "2017-07-11T10:41:37Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "as a user i want the ability to view my location on a map.",
+        "entity": "Map",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-02T18:40:27Z",
+        "evidence": [
+            {
+                "quote": "as a user i want the ability to view my location on a map.",
+                "source": "\"https://github.com/KevinJThomas/turn-based-adventure/issues/21\"",
+                "timestamp": "2017-10-02T18:40:27Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "It's a good way to enhance usability.",
+        "entity": "Cluster Info",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-19T13:29:13Z",
+        "evidence": [
+            {
+                "quote": "i think it'd be a good way to enhance usability.",
+                "source": "\"https://github.com/foobaar/kafka-offset-manager/issues/6\"",
+                "timestamp": "2017-10-19T13:29:13Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Keep a running count of the snake",
+        "entity": "add score",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-16T05:59:26Z",
+        "evidence": [
+            {
+                "quote": "keep a running count of the length of the snake",
+                "source": "\"https://github.com/jimmynguyen/coffeescript-snake/issues/2\"",
+                "timestamp": "2017-09-16T05:59:26Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Using Aim on XP SP3 works great",
+        "entity": "V",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-13T22:28:51Z",
+        "evidence": [
+            {
+                "quote": "hello again, i tried to use aim also on my xp sp3 and it works great except for the fact that i am obliged to avoid putting the pc into sleep state.",
+                "source": "\"https://github.com/ArsenalRecon/Arsenal-Image-Mounter/issues/5\"",
+                "timestamp": "2017-10-13T22:28:51Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Abstract Syntax Tree (AST) is used for building an AST.",
+        "entity": "ast",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-11T21:32:39Z",
+        "evidence": [
+            {
+                "quote": "building an ast https://en.wikipedia.org/wiki/abstract_syntax_tree",
+                "source": "\"https://github.com/Prytoegrian/check-break/issues/4\"",
+                "timestamp": "2017-09-11T21:32:39Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The node classes for our functional programming ASTs are in file myfunctional_ast2.py",
+        "entity": "Victor",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-10T21:06:36Z",
+        "evidence": [
+            {
+                "quote": "The node classes for our functional programming ASTs are in file myfunctional_ast2.py",
+                "source": "\"https://github.com/gitkeyan/410-00p/issues/6\"",
+                "timestamp": "2017-11-10T21:06:36Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A character named Dorothy was created.",
+        "entity": "Dorothy",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-19T00:34:09Z",
+        "evidence": [
+            {
+                "quote": "touch dorothy.txt",
+                "source": "\"https://github.com/ga-wdi-exercises/to_oz/issues/195\"",
+                "timestamp": "2017-01-19T00:34:09Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Any plan to make a plugin compatible with Craft 3",
+        "entity": "Craft 3",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-03T01:40:00Z",
+        "evidence": [
+            {
+                "quote": "any plan to make that plugin compatible with craft 3",
+                "source": "\"https://github.com/bymayo/select2/issues/7\"",
+                "timestamp": "2017-12-03T01:40:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "User agents may perform higher quality mapping of colors from one gamut to another.",
+        "entity": "drafts.csswg.org",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-23T10:29:13Z",
+        "evidence": [
+            {
+                "quote": "users agents may perform higher quality mapping of colors from one gamut to another.",
+                "source": "\"https://github.com/w3c/csswg-drafts/issues/2132\"",
+                "timestamp": "2017-12-23T10:29:13Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Apollo team is involved",
+        "entity": "Apollo",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-22T13:15:29Z",
+        "evidence": [
+            {
+                "quote": "hi apollo team",
+                "source": "\"https://github.com/ApolloAuto/apollo/issues/1403\"",
+                "timestamp": "2017-11-22T13:15:29Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "thanks you for this library",
+        "entity": "You",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-28T08:53:57Z",
+        "evidence": [
+            {
+                "quote": "'thanks you for this library ; you did a great job. hope i will be able to help in any kind of maner.'",
+                "source": "\"https://github.com/Josantonius/PHP-MimeType/issues/1\"",
+                "timestamp": "2017-01-28T08:53:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The project seems interesting.",
+        "entity": "You",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-27T15:35:16Z",
+        "evidence": [
+            {
+                "quote": "the project seems interesting",
+                "source": "\"https://github.com/binocarlos/kettle-ui/issues/1\"",
+                "timestamp": "2017-07-27T15:35:16Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The container needs to be able to add neighbors on the fly",
+        "entity": "curl",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-27T14:36:48Z",
+        "evidence": [
+            {
+                "quote": "hy, could we please add curl to the container. first of all, to be able to add neighbors on the fly from within the container",
+                "source": "\"https://github.com/bluedigits/iota-node/issues/16\"",
+                "timestamp": "2017-11-27T14:36:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "An error occurred",
+        "entity": "postimg.org",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-10T04:07:04Z",
+        "evidence": [
+            {
+                "quote": "can help me with this error https://s28.postimg.org/dgyspaea5/234.png",
+                "source": "\"https://github.com/Megabyte918/MultiOgar-Edited/issues/526\"",
+                "timestamp": "2017-02-10T04:07:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The organization type is 1",
+        "entity": "DCMA",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-31T04:13:44Z",
+        "evidence": [
+            {
+                "quote": "organization type : 1",
+                "source": "\"https://github.com/usnistgov/800-63-3/issues/1033\"",
+                "timestamp": "2017-03-31T04:13:44Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The document 63-3, 63a, 63b, or 63c is a type of policy.",
+        "entity": "DCMA",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-31T02:13:15Z",
+        "evidence": [
+            {
+                "quote": "63-3, 63a, 63b, or 63c : 800-63-3",
+                "source": "\"https://github.com/usnistgov/800-63-3/issues/940\"",
+                "timestamp": "2017-03-31T02:13:15Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The addon is not working",
+        "entity": "Addon",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-20T02:46:26Z",
+        "evidence": [
+            {
+                "quote": "i have tried several characters and have yet to see any visual procs pop up on my action bars or middle of screen",
+                "source": "\"https://github.com/ElvUI-WotLK/ElvUI_VisualProcs/issues/1\"",
+                "timestamp": "2017-02-20T02:46:26Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The application doesn't work when adding certain lines of code.",
+        "entity": "socket.io-adapter-mongo",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-24T08:17:05Z",
+        "evidence": [
+            {
+                "quote": "my existing application doesn't work when i add these lines.",
+                "source": "\"https://github.com/lklepner/socket.io-adapter-mongo/issues/8\"",
+                "timestamp": "2017-11-24T08:17:05Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "When plugin is enabled on server, it tries to register blocks using blockfactory.php, even though blockfactory.php is not used in PMMP.",
+        "entity": "PocketMine",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-12T16:13:48Z",
+        "evidence": [
+            {
+                "quote": "kdy\u017e zapnu plugin na serveru tak se snazi zaregistrovat bloky pres block.php i kdyz blockfactory.php v pmmp asi",
+                "source": "\"https://github.com/GamakCZ/RedstoneX/issues/1\"",
+                "timestamp": "2017-11-12T16:13:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Snow falls on the mountain at night.",
+        "entity": "Queen",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-22T14:11:57Z",
+        "evidence": [
+            {
+                "quote": "the snow glows white on the mountain tonight.",
+                "source": "\"https://github.com/B81621123/notes/issues/11\"",
+                "timestamp": "2017-04-22T14:11:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The app crashed.",
+        "entity": "Crashlytics.com",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-22T19:19:25Z",
+        "evidence": [
+            {
+                "quote": "in brf.a number of crashes: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/26550\"",
+                "timestamp": "2017-11-22T19:19:25Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There was 1 crash on 1 impacted device.",
+        "entity": "momo",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-19T09:08:31Z",
+        "evidence": [
+            {
+                "quote": "number of crashes: 1 impacted devices: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/15885\"",
+                "timestamp": "2017-09-19T09:08:31Z"
+            },
+            {
+                "quote": "impacted devices: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/3096\"",
+                "timestamp": "2017-07-23T03:00:30Z"
+            }
+        ],
+        "merge_history": [
+            {
+                "original_text": "Impacted devices: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/3096\"",
+                "reason": "SAME",
+                "timestamp": "2017-07-23T03:00:30Z"
+            }
+        ]
+    },
+    {
+        "text": "Build files are created using Cradle name with GTID.gradle.",
+        "entity": "GTID",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-29T17:12:57Z",
+        "evidence": [
+            {
+                "quote": "build files - each member creates a build file using cradle name with gtid.gradle .",
+                "source": "\"https://github.com/rhurst1/Rat-Tracker/issues/4\"",
+                "timestamp": "2017-08-29T17:12:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "This NPC should not have a fishing pole equipped.",
+        "entity": "Godan",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-07T07:14:37Z",
+        "evidence": [
+            {
+                "quote": "i don't think this npc should have fishing pole equipped",
+                "source": "\"https://github.com/Looking4Group/L4G_Core/issues/3362\"",
+                "timestamp": "2017-04-07T07:14:37Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "indentation in def {} are the same",
+        "entity": "darrengzy",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-01T04:25:41Z",
+        "evidence": [
+            {
+                "quote": "i see that indentation in def {} are the same",
+                "source": "\"https://github.com/LiXizhi/NPL/issues/12\"",
+                "timestamp": "2017-02-01T04:25:41Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "extras semantics should be better defined.",
+        "entity": "extras",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-17T20:56:35Z",
+        "evidence": [
+            {
+                "quote": "extras semantics should be better defined.",
+                "source": "\"https://github.com/littledan/proposal-unified-class-features/issues/8\"",
+                "timestamp": "2017-07-17T20:56:35Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Today is payday",
+        "entity": "Biological life forms",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-11T02:00:01Z",
+        "evidence": [
+            {
+                "quote": "i'm here to remind you that today is payday.",
+                "source": "\"https://github.com/liberapay/salon/issues/169\"",
+                "timestamp": "2017-10-11T02:00:01Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "it doesn't want to work",
+        "entity": "pi zero w",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-18T22:51:13Z",
+        "evidence": [
+            {
+                "quote": "am i missing something there?",
+                "source": "\"https://github.com/pipaos/pipaos/issues/1\"",
+                "timestamp": "2017-08-18T22:51:13Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There was a collaboration of all 4 members in a meeting.",
+        "entity": "4 members",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-17T04:57:55Z",
+        "evidence": [
+            {
+                "quote": "collaboration of all 4 members in person meeting times: 11/14, 11/16",
+                "source": "\"https://github.com/amw6022/stat297hw3/issues/2\"",
+                "timestamp": "2017-11-17T04:57:55Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The avg anti-virus free edition is outdated.",
+        "entity": "avg anti-virus free edition",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-30T02:57:35Z",
+        "evidence": [
+            {
+                "quote": "it is outdated and does not work.",
+                "source": "\"https://github.com/chocolatey/chocolatey-package-requests/issues/90\"",
+                "timestamp": "2017-01-30T02:57:35Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Create a test project to exercise the Public API",
+        "entity": "ci",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-20T04:32:01Z",
+        "evidence": [
+            {
+                "quote": "create test project that exercises the public api",
+                "source": "\"https://github.com/obartra/picturebook/issues/5\"",
+                "timestamp": "2017-11-20T04:32:01Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "We need to set up CI with all of the goodies like making a virtual environment.",
+        "entity": "ci",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-29T21:17:26Z",
+        "evidence": [
+            {
+                "quote": "setup ci with all of the goodies like making a virtual environment,",
+                "source": "\"https://github.com/coolfriends/oil/issues/6\"",
+                "timestamp": "2017-10-29T21:17:26Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Long-term memory is required for dependency tree logic",
+        "entity": "ci",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-06-29T13:36:36Z",
+        "evidence": [
+            {
+                "quote": "- testing - metadata checker - dependency tree logic",
+                "source": "\"https://github.com/necx-org/necx/issues/7\"",
+                "timestamp": "2017-06-29T13:36:36Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Setup CI",
+        "entity": "Travis",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-20T21:44:00Z",
+        "evidence": [
+            {
+                "quote": "setup ci",
+                "source": "\"https://github.com/durban/seals/issues/42\"",
+                "timestamp": "2017-01-20T21:44:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The site is deployed on App Engine.",
+        "entity": "Travis CI",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-08T18:55:25Z",
+        "evidence": [
+            {
+                "quote": "now that the site is deployed on app engine https://hnpwa-prod.appspot.com/",
+                "source": "\"https://github.com/tastejs/hacker-news-pwas/issues/20\"",
+                "timestamp": "2017-05-08T18:55:25Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "CI is set up to deploy the app whenever code is merged into master",
+        "entity": "lewi-g",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-13T03:33:00Z",
+        "evidence": [
+            {
+                "quote": "so app gets deployed whenever code is merged into master",
+                "source": "\"https://github.com/GraphQLGuide/directory/issues/4\"",
+                "timestamp": "2017-11-13T03:33:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The issue is related to shipping a version 1",
+        "entity": "Nuget",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-04T12:06:26Z",
+        "evidence": [
+            {
+                "quote": "ship a v1",
+                "source": "\"https://github.com/ctolkien/ClubHouse/issues/4\"",
+                "timestamp": "2017-05-04T12:06:26Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There is a spell 'Enslave Demon' that can be used by Warlocks.",
+        "entity": "Forge Camp",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-10T22:07:04Z",
+        "evidence": [
+            {
+                "quote": "warlocks can use the spell enslave demon",
+                "source": "\"https://github.com/ProjectNagrand/GaradarBugReports/issues/12\"",
+                "timestamp": "2017-03-10T22:07:04Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Forge still grants +1 production and +1 gold to Copper.",
+        "entity": "Forge",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-03T00:40:00Z",
+        "evidence": [
+            {
+                "quote": "a. forge forge still grants +1 production and +1 gold to copper. it should be +2 gold. ! 1 forge https://user-images.githubusercontent.com/11933188/32356657-fb6f09ae-c079-11e7-8747-5d1f7f2d58ed.png",
+                "source": "\"https://github.com/LoneGazebo/Community-Patch-DLL/issues/3632\"",
+                "timestamp": "2017-11-03T00:40:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Java had a type 'text'",
+        "entity": "Datastore API",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-18T16:54:20Z",
+        "evidence": [
+            {
+                "quote": "'in Java i had a type text .'",
+                "source": "\"https://github.com/GoogleCloudPlatform/google-cloud-node/issues/2680\"",
+                "timestamp": "2017-10-18T16:54:20Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There is a UI bug that breaks and appears under the outline pane when the button row new, new xquery, \u2026 is visible.",
+        "entity": "Safari",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2022-11-03T03:02:30Z",
+        "evidence": [
+            {
+                "quote": "the button row new, new xquery, \u2026 breaks and appears under the outline pane.",
+                "source": "\"https://github.com/wolfgangmm/eXide/issues/174\"",
+                "timestamp": "2022-11-03T03:02:30Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Using == in JavaScript can lead to type coercion and unintended results.",
+        "entity": "JavaScript",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-18T06:56:55Z",
+        "evidence": [
+            {
+                "quote": "in almost all situations in javascript it is better to use === than == . == will coerce types and thus not give intended results sometimes.",
+                "source": "\"https://github.com/facg3/To-do-App/issues/25\"",
+                "timestamp": "2017-11-18T06:56:55Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The system shall display syllabi of the class uploaded by students or teachers.",
+        "entity": "Students",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-27T08:15:41Z",
+        "evidence": [
+            {
+                "quote": "the system shall display syllabi of the class uploaded by students or teachers.",
+                "source": "\"https://github.com/JakeVz/PCE-SVN/issues/24\"",
+                "timestamp": "2017-09-27T08:15:41Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Teacher can see common student critiques of a class they are going to teach.",
+        "entity": "Teachers",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-27T08:15:15Z",
+        "evidence": [
+            {
+                "quote": "so that i can cater the material and teaching style to the students.",
+                "source": "\"https://github.com/JakeVz/PCE-SVN/issues/22\"",
+                "timestamp": "2017-09-27T08:15:15Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There was an issue with WoX Launcher.",
+        "entity": "WoX Launcher",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-08T07:28:47Z",
+        "evidence": [
+            {
+                "quote": "exception message: wox version: 1.3.424 os version: microsoft windows nt 10.0.17046.0 intptr length: 8 x64: true python path: pythonw.exe everything sdk path: c:\\users\\12863\\appdata\\roaming\\wox\\settings\\plugins\\wox.plugin.everything\\everythingsdk\\x64\\everything.dll date: 12/08/2017 15:23:50 exception: mscorlib system.aggregateexception \u00fb\u00be\u00bf\u00ba\u00be\u00fa\u00b8\u00d0\u00a5\u00d1\u00e9\u00a1\u00c3\u00d5\u00b4",
+                "source": "\"https://github.com/Wox-launcher/Wox/issues/1734\"",
+                "timestamp": "2017-12-08T07:28:47Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Number of crashes: 1",
+        "entity": "cn",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-23T03:00:30Z",
+        "evidence": [
+            {
+                "quote": "in cn. number of crashes: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/3096\"",
+                "timestamp": "2017-07-23T03:00:30Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There are 1 impacted devices.",
+        "entity": "com.tencent.mm",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-07-20T07:45:08Z",
+        "evidence": [
+            {
+                "quote": "impacted devices: 1",
+                "source": "\"https://github.com/lstjsuperman/fabric/issues/2543\"",
+                "timestamp": "2017-07-20T07:45:08Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The official website of zcash is z.cash",
+        "entity": "zcash",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-06-04T07:30:45Z",
+        "evidence": [
+            {
+                "quote": "official website: https://z.cash/",
+                "source": "\"https://github.com/allienworks/cryptocoins/issues/49\"",
+                "timestamp": "2017-06-04T07:30:45Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "2.1 shows better profit than 2.2.",
+        "entity": "2.1",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-28T00:25:44Z",
+        "evidence": [
+            {
+                "quote": "2.1 seems to show better profit than 2.2 for some reasons.",
+                "source": "\"https://github.com/nemosminer/NemosMiner-v2.0-Zpool/issues/51\"",
+                "timestamp": "2017-09-28T00:25:44Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Deployment has been done in an OCP (Open Container Project) 3.6 cluster",
+        "entity": "OC (Open Container Project)",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-10-31T16:49:15Z",
+        "evidence": [
+            {
+                "quote": "No quote",
+                "source": "\"https://github.com/RedHatWorkshops/openshiftv3-ops-workshop/issues/3\"",
+                "timestamp": "2017-10-31T16:49:15Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The error occurred when trying to access the git repository.",
+        "entity": "Git",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-22T08:19:02Z",
+        "evidence": [
+            {
+                "quote": "fatal: unable to access 'https://git.tt-rss.org/git/tt-rss.git/':",
+                "source": "\"https://github.com/x86dev/docker-ttrss/issues/15\"",
+                "timestamp": "2017-09-22T08:19:02Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "pyca project is experimental",
+        "entity": "Alex",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-06-09T20:33:00Z",
+        "evidence": [
+            {
+                "quote": "we'd like pyca to be more tightly focused due to our limited people power and while this project is a cool idea it's still experimental and will remain so for the foreseeable future.",
+                "source": "\"https://github.com/pyca/tls/issues/132\"",
+                "timestamp": "2017-06-09T20:33:00Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Failed to add a host successfully",
+        "entity": "Rancher",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-14T02:44:52Z",
+        "evidence": [
+            {
+                "quote": "i could not add a host successfully.",
+                "source": "\"https://github.com/rancher/rancher/issues/10561\"",
+                "timestamp": "2017-12-14T02:44:52Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The site should have a logo.",
+        "entity": "The site",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-03-21T15:50:09Z",
+        "evidence": [
+            {
+                "quote": "this site should have a logo.",
+                "source": "\"https://github.com/Plsr/plsr.github.io/issues/2\"",
+                "timestamp": "2017-03-21T15:50:09Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "There is a way to add a task to Omnifocus through this workflow.",
+        "entity": "Omnifocus",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-01-16T19:51:45Z",
+        "evidence": [
+            {
+                "quote": "is there anyway to add a task to omnifocus through this workflow ?",
+                "source": "\"https://github.com/rhydlewis/search-omnifocus/issues/22\"",
+                "timestamp": "2017-01-16T19:51:45Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A wiki can be added to a repo.",
+        "entity": "WIKI",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-23T19:53:15Z",
+        "evidence": [
+            {
+                "quote": "adding a wiki to this repo could allow a place",
+                "source": "\"https://github.com/fireice-uk/xmr-stak-cpu/issues/41\"",
+                "timestamp": "2017-02-23T19:53:15Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Node.js and JavaScript can be used for scripting.",
+        "entity": "Node.js",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-11-27T08:32:57Z",
+        "evidence": [
+            {
+                "quote": "maybe we should be able to do that in nodejs scripts : javascript",
+                "source": "\"https://github.com/XhmikosR/find-unused-sass-variables/issues/1\"",
+                "timestamp": "2017-11-27T08:32:57Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "adding to npm registry",
+        "entity": "npm",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-09-26T12:53:48Z",
+        "evidence": [
+            {
+                "quote": "i'll suggest adding these to the npm registry.",
+                "source": "\"https://github.com/JimDaly/ClientSideFetchXmlObjectLibraries/issues/1\"",
+                "timestamp": "2017-09-26T12:53:48Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Maybe korma would be better",
+        "entity": "korma",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-08-24T13:36:52Z",
+        "evidence": [
+            {
+                "quote": "maybe korma would be better",
+                "source": "\"https://github.com/matthieusb/clojure-simple-api/issues/11\"",
+                "timestamp": "2017-08-24T13:36:52Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "The author is using Guss-Rem as a plugin in Bower.",
+        "entity": "Guss-Rem",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-01T14:12:14Z",
+        "evidence": [
+            {
+                "quote": "hey, i'm still using guss-rem but i've been trying to reduce the amount of dependency management i have to do.",
+                "source": "\"https://github.com/guardian/guss-rem/issues/11\"",
+                "timestamp": "2017-12-01T14:12:14Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "Add zim to npmjs registry.",
+        "entity": "@danzen",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-04-20T18:49:45Z",
+        "evidence": [
+            {
+                "quote": "hey @danzen can you add zim to npmjs registry?",
+                "source": "\"https://github.com/danzen/zimjs/issues/8\"",
+                "timestamp": "2017-04-20T18:49:45Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "create a github-pages ui",
+        "entity": "Sublime Text",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-05-23T07:37:30Z",
+        "evidence": [
+            {
+                "quote": "create a github-pages ui which would read the default.sublime-commands ../default.sublime-commands database file and enable searching for cheatsheets by name or additionally, by tags.",
+                "source": "\"https://github.com/vrachieru/cheatsheet/issues/3\"",
+                "timestamp": "2017-05-23T07:37:30Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "avoiding copy/paste errors improves code quality",
+        "entity": "page 8",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-12-17T19:47:20Z",
+        "evidence": [
+            {
+                "quote": "to avoid the copy/past error",
+                "source": "\"https://github.com/actions-on-google/dialogflow-facts-about-google-nodejs/issues/21\"",
+                "timestamp": "2017-12-17T19:47:20Z"
+            }
+        ],
+        "merge_history": []
+    },
+    {
+        "text": "A sample application was written in C to echo back what it's sent.",
+        "entity": "Chris",
+        "status": "CURRENT",
+        "is_current": true,
+        "created_at": "2017-02-04T02:49:55Z",
+        "evidence": [
+            {
+                "quote": "after some experimenting, i've got a sample application written in c echos back what it's sent",
+                "source": "\"https://github.com/joewalnes/websocketd/issues/248\"",
+                "timestamp": "2017-02-04T02:49:55Z"
+            }
+        ],
+        "merge_history": []
+    }
+]

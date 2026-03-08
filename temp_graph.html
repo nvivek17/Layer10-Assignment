@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #0e1117;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#4d94ff", "font": {"color": "white"}, "id": "User", "label": "User", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The narrator focus does not re...", "label": "The narrator focus does not re...", "shape": "dot", "size": 15, "title": "FACT: The narrator focus does not retain on the expand side of a documentation button after pressing enter on the collapse side of a documentation button.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Microsoft/pxt/issues/2543\"", "label": "2543\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Microsoft/pxt/issues/2543\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The searching process takes a ...", "label": "The searching process takes a ...", "shape": "dot", "size": 15, "title": "FACT: The searching process takes a long time\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/alex855k/S3ExamProject/issues/12\"", "label": "12\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/alex855k/S3ExamProject/issues/12\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "A welcome message is displayed...", "label": "A welcome message is displayed...", "shape": "dot", "size": 15, "title": "FACT: A welcome message is displayed upon landing at the site.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/thetrevlore/Grace-Shopper/issues/44\"", "label": "44\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/thetrevlore/Grace-Shopper/issues/44\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "There is a concept of \u0027user st...", "label": "There is a concept of \u0027user st...", "shape": "dot", "size": 15, "title": "FACT: There is a concept of \u0027user story\u0027 in software development\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/ValtechPhoang/MyRepository/issues/18\"", "label": "18\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/ValtechPhoang/MyRepository/issues/18\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "As a user, I want to add a ste...", "label": "As a user, I want to add a ste...", "shape": "dot", "size": 15, "title": "FACT: As a user, I want to add a step so I can\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/SIU-CS/Flowchart-Creator-production/issues/14\"", "label": "14\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/SIU-CS/Flowchart-Creator-production/issues/14\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "React", "label": "React", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Trying to access the key prop ...", "label": "Trying to access the key prop ...", "shape": "dot", "size": 15, "title": "FACT: Trying to access the key prop directly will result in undefined being returned.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/whoisandie/react-blocks/issues/12\"", "label": "12\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/whoisandie/react-blocks/issues/12\""}, {"color": "#ff4b4b", "font": {"color": "white"}, "id": "React installation is broken o...", "label": "React installation is broken o...", "shape": "dot", "size": 15, "title": "FACT: React installation is broken on Windows systems\nSTATUS: HISTORICAL (Superseded by https://github.com/test/issue3)\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "https://github.com/test/issue1", "label": "issue1...", "shape": "dot", "size": 10, "title": "Source: https://github.com/test/issue1"}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The React setup is now fixed o...", "label": "The React setup is now fixed o...", "shape": "dot", "size": 15, "title": "FACT: The React setup is now fixed on Windows\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "https://github.com/test/issue3", "label": "issue3...", "shape": "dot", "size": 10, "title": "Source: https://github.com/test/issue3"}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "Facebook", "label": "Facebook", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The user is using Chrome as th...", "label": "The user is using Chrome as th...", "shape": "dot", "size": 15, "title": "FACT: The user is using Chrome as their browser.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/garygaspar/issue-tracker-repo/issues/2\"", "label": "2\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/garygaspar/issue-tracker-repo/issues/2\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "GitHub", "label": "GitHub", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The Alamofire cannot work with...", "label": "The Alamofire cannot work with...", "shape": "dot", "size": 15, "title": "FACT: The Alamofire cannot work with Carthage.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Alamofire/Alamofire/issues/2398\"", "label": "2398\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Alamofire/Alamofire/issues/2398\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Three ashwalkers attacked a go...", "label": "Three ashwalkers attacked a go...", "shape": "dot", "size": 15, "title": "FACT: Three ashwalkers attacked a goliath with spears and pickaxes.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/tgstation/tgstation/issues/29286\"", "label": "29286\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/tgstation/tgstation/issues/29286\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The question is about class-na...", "label": "The question is about class-na...", "shape": "dot", "size": 15, "title": "FACT: The question is about class-names\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/QuickBlox/q-municate-web/issues/105\"", "label": "105\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/QuickBlox/q-municate-web/issues/105\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The correct value for company ...", "label": "The correct value for company ...", "shape": "dot", "size": 15, "title": "FACT: The correct value for company user_id is to be determined\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/justarrived/just_match_api/issues/861\"", "label": "861\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/justarrived/just_match_api/issues/861\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Images and their parts (backgr...", "label": "Images and their parts (backgr...", "shape": "dot", "size": 15, "title": "FACT: Images and their parts (background, foreground/content) can be separated\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/constelation/monorepo/issues/74\"", "label": "74\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/constelation/monorepo/issues/74\""}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The code returns standard erro...", "label": "The code returns standard erro...", "shape": "dot", "size": 15, "title": "FACT: The code returns standard errors\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/williamaeberhard/glmrob.nb/issues/1\"", "label": "1\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/williamaeberhard/glmrob.nb/issues/1\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "Keybase", "label": "Keybase", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Compiling Keybase on Gentoo is...", "label": "Compiling Keybase on Gentoo is...", "shape": "dot", "size": 15, "title": "FACT: Compiling Keybase on Gentoo is not working\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/keybase/client/issues/9811\"", "label": "9811\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/keybase/client/issues/9811\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "React Native", "label": "React Native", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "module vydiarnfileuploader req...", "label": "module vydiarnfileuploader req...", "shape": "dot", "size": 15, "title": "FACT: module vydiarnfileuploader requires main queue setup\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Vydia/react-native-background-upload/issues/52\"", "label": "52\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Vydia/react-native-background-upload/issues/52\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "Windows", "label": "Windows", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The bug-tracker is monitored b...", "label": "The bug-tracker is monitored b...", "shape": "dot", "size": 15, "title": "FACT: The bug-tracker is monitored by developers and other technical types.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Microsoft/WSL/issues/2666\"", "label": "2666\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Microsoft/WSL/issues/2666\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "Channel 4", "label": "Channel 4", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The app is called all 4....", "label": "The app is called all 4....", "shape": "dot", "size": 15, "title": "FACT: The app is called all 4.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/glasklart/hd/issues/8877\"", "label": "8877\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/glasklart/hd/issues/8877\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "f API", "label": "f API", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Contributing to the f API is s...", "label": "Contributing to the f API is s...", "shape": "dot", "size": 15, "title": "FACT: Contributing to the f API is something that might be of interest.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/AsynkronIT/protoactor-dotnet/issues/217\"", "label": "217\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/AsynkronIT/protoactor-dotnet/issues/217\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "users", "label": "users", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "should return users that creat...", "label": "should return users that creat...", "shape": "dot", "size": 15, "title": "FACT: should return users that created the post before 1/1/15\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/3\"", "label": "3\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/vallejoj/Has-Many-Relationships/issues/3\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "posts", "label": "posts", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "The information should be refe...", "label": "The information should be refe...", "shape": "dot", "size": 15, "title": "FACT: The information should be referenced from posts.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/5\"", "label": "5\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/vallejoj/Has-Many-Relationships/issues/5\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "QP", "label": "QP", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "QP was introduced as the famil...", "label": "QP was introduced as the famil...", "shape": "dot", "size": 15, "title": "FACT: QP was introduced as the family of continuous and mixed-integer optimization problems.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/fabiofurini/QPLIB/issues/1\"", "label": "1\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/fabiofurini/QPLIB/issues/1\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "data design code", "label": "data design code", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Skills are to be explained in ...", "label": "Skills are to be explained in ...", "shape": "dot", "size": 15, "title": "FACT: Skills are to be explained in a q\u0026a format.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/jmithani/website/issues/35\"", "label": "35\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/jmithani/website/issues/35\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "vesta/production", "label": "vesta/production", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "authorize! raises a \u0027not autho...", "label": "authorize! raises a \u0027not autho...", "shape": "dot", "size": 15, "title": "FACT: authorize! raises a \u0027not authorized error\u0027\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/YaleSTC/vesta/issues/581\"", "label": "581\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/YaleSTC/vesta/issues/581\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "arcanedev", "label": "arcanedev", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Log Viewer version is 4.4...", "label": "Log Viewer version is 4.4...", "shape": "dot", "size": 15, "title": "FACT: Log Viewer version is 4.4\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/ARCANEDEV/LogViewer/issues/183\"", "label": "183\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/ARCANEDEV/LogViewer/issues/183\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "SecurityContext", "label": "SecurityContext", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "Unauthenticated requests are h...", "label": "Unauthenticated requests are h...", "shape": "dot", "size": 15, "title": "FACT: Unauthenticated requests are handled with a 401 status code.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Romm17/FriendTreasuryAPI/issues/15\"", "label": "15\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Romm17/FriendTreasuryAPI/issues/15\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "\u0280", "label": "\u0280", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "\u0280 is the IPA symbol for an uvu...", "label": "\u0280 is the IPA symbol for an uvu...", "shape": "dot", "size": 15, "title": "FACT: \u0280 is the IPA symbol for an uvular trill.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/Anaphory/lexirumah-data/issues/7\"", "label": "7\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/Anaphory/lexirumah-data/issues/7\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "r", "label": "r", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "R is one of the best statistic...", "label": "R is one of the best statistic...", "shape": "dot", "size": 15, "title": "FACT: R is one of the best statistical and mathematics tools.\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/keeferrourke/la-capitaine-icon-theme/issues/256\"", "label": "256\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/keeferrourke/la-capitaine-icon-theme/issues/256\""}, {"color": "#4d94ff", "font": {"color": "white"}, "id": "calendar", "label": "calendar", "shape": "ellipse", "size": 25}, {"color": "#00ffcc", "font": {"color": "white"}, "id": "format the calendar appearance...", "label": "format the calendar appearance...", "shape": "dot", "size": 15, "title": "FACT: format the calendar appearance\nSTATUS: CURRENT\nCONFIDENCE: 0.9"}, {"color": "#777777", "font": {"color": "white"}, "id": "\"https://github.com/CS3398-Rust-Buckets/S2017/issues/23\"", "label": "23\"...", "shape": "dot", "size": 10, "title": "Source: \"https://github.com/CS3398-Rust-Buckets/S2017/issues/23\""}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "User", "label": "asserts", "to": "The narrator focus does not re..."}, {"arrows": "to", "dashes": true, "from": "The narrator focus does not re...", "label": "evidenced_by", "to": "\"https://github.com/Microsoft/pxt/issues/2543\""}, {"arrows": "to", "from": "User", "label": "asserts", "to": "The searching process takes a ..."}, {"arrows": "to", "dashes": true, "from": "The searching process takes a ...", "label": "evidenced_by", "to": "\"https://github.com/alex855k/S3ExamProject/issues/12\""}, {"arrows": "to", "from": "User", "label": "asserts", "to": "A welcome message is displayed..."}, {"arrows": "to", "dashes": true, "from": "A welcome message is displayed...", "label": "evidenced_by", "to": "\"https://github.com/thetrevlore/Grace-Shopper/issues/44\""}, {"arrows": "to", "from": "User", "label": "asserts", "to": "There is a concept of \u0027user st..."}, {"arrows": "to", "dashes": true, "from": "There is a concept of \u0027user st...", "label": "evidenced_by", "to": "\"https://github.com/ValtechPhoang/MyRepository/issues/18\""}, {"arrows": "to", "from": "User", "label": "asserts", "to": "As a user, I want to add a ste..."}, {"arrows": "to", "dashes": true, "from": "As a user, I want to add a ste...", "label": "evidenced_by", "to": "\"https://github.com/SIU-CS/Flowchart-Creator-production/issues/14\""}, {"arrows": "to", "from": "React", "label": "asserts", "to": "Trying to access the key prop ..."}, {"arrows": "to", "dashes": true, "from": "Trying to access the key prop ...", "label": "evidenced_by", "to": "\"https://github.com/whoisandie/react-blocks/issues/12\""}, {"arrows": "to", "from": "React", "label": "asserts", "to": "React installation is broken o..."}, {"arrows": "to", "dashes": true, "from": "React installation is broken o...", "label": "evidenced_by", "to": "https://github.com/test/issue1"}, {"arrows": "to", "from": "React", "label": "asserts", "to": "The React setup is now fixed o..."}, {"arrows": "to", "dashes": true, "from": "The React setup is now fixed o...", "label": "evidenced_by", "to": "https://github.com/test/issue3"}, {"arrows": "to", "from": "Facebook", "label": "asserts", "to": "The user is using Chrome as th..."}, {"arrows": "to", "dashes": true, "from": "The user is using Chrome as th...", "label": "evidenced_by", "to": "\"https://github.com/garygaspar/issue-tracker-repo/issues/2\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "The Alamofire cannot work with..."}, {"arrows": "to", "dashes": true, "from": "The Alamofire cannot work with...", "label": "evidenced_by", "to": "\"https://github.com/Alamofire/Alamofire/issues/2398\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "Three ashwalkers attacked a go..."}, {"arrows": "to", "dashes": true, "from": "Three ashwalkers attacked a go...", "label": "evidenced_by", "to": "\"https://github.com/tgstation/tgstation/issues/29286\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "The question is about class-na..."}, {"arrows": "to", "dashes": true, "from": "The question is about class-na...", "label": "evidenced_by", "to": "\"https://github.com/QuickBlox/q-municate-web/issues/105\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "The correct value for company ..."}, {"arrows": "to", "dashes": true, "from": "The correct value for company ...", "label": "evidenced_by", "to": "\"https://github.com/justarrived/just_match_api/issues/861\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "Images and their parts (backgr..."}, {"arrows": "to", "dashes": true, "from": "Images and their parts (backgr...", "label": "evidenced_by", "to": "\"https://github.com/constelation/monorepo/issues/74\""}, {"arrows": "to", "from": "GitHub", "label": "asserts", "to": "The code returns standard erro..."}, {"arrows": "to", "dashes": true, "from": "The code returns standard erro...", "label": "evidenced_by", "to": "\"https://github.com/williamaeberhard/glmrob.nb/issues/1\""}, {"arrows": "to", "from": "Keybase", "label": "asserts", "to": "Compiling Keybase on Gentoo is..."}, {"arrows": "to", "dashes": true, "from": "Compiling Keybase on Gentoo is...", "label": "evidenced_by", "to": "\"https://github.com/keybase/client/issues/9811\""}, {"arrows": "to", "from": "React Native", "label": "asserts", "to": "module vydiarnfileuploader req..."}, {"arrows": "to", "dashes": true, "from": "module vydiarnfileuploader req...", "label": "evidenced_by", "to": "\"https://github.com/Vydia/react-native-background-upload/issues/52\""}, {"arrows": "to", "from": "Windows", "label": "asserts", "to": "The bug-tracker is monitored b..."}, {"arrows": "to", "dashes": true, "from": "The bug-tracker is monitored b...", "label": "evidenced_by", "to": "\"https://github.com/Microsoft/WSL/issues/2666\""}, {"arrows": "to", "from": "Channel 4", "label": "asserts", "to": "The app is called all 4...."}, {"arrows": "to", "dashes": true, "from": "The app is called all 4....", "label": "evidenced_by", "to": "\"https://github.com/glasklart/hd/issues/8877\""}, {"arrows": "to", "from": "f API", "label": "asserts", "to": "Contributing to the f API is s..."}, {"arrows": "to", "dashes": true, "from": "Contributing to the f API is s...", "label": "evidenced_by", "to": "\"https://github.com/AsynkronIT/protoactor-dotnet/issues/217\""}, {"arrows": "to", "from": "users", "label": "asserts", "to": "should return users that creat..."}, {"arrows": "to", "dashes": true, "from": "should return users that creat...", "label": "evidenced_by", "to": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/3\""}, {"arrows": "to", "from": "posts", "label": "asserts", "to": "The information should be refe..."}, {"arrows": "to", "dashes": true, "from": "The information should be refe...", "label": "evidenced_by", "to": "\"https://github.com/vallejoj/Has-Many-Relationships/issues/5\""}, {"arrows": "to", "from": "QP", "label": "asserts", "to": "QP was introduced as the famil..."}, {"arrows": "to", "dashes": true, "from": "QP was introduced as the famil...", "label": "evidenced_by", "to": "\"https://github.com/fabiofurini/QPLIB/issues/1\""}, {"arrows": "to", "from": "data design code", "label": "asserts", "to": "Skills are to be explained in ..."}, {"arrows": "to", "dashes": true, "from": "Skills are to be explained in ...", "label": "evidenced_by", "to": "\"https://github.com/jmithani/website/issues/35\""}, {"arrows": "to", "from": "vesta/production", "label": "asserts", "to": "authorize! raises a \u0027not autho..."}, {"arrows": "to", "dashes": true, "from": "authorize! raises a \u0027not autho...", "label": "evidenced_by", "to": "\"https://github.com/YaleSTC/vesta/issues/581\""}, {"arrows": "to", "from": "arcanedev", "label": "asserts", "to": "Log Viewer version is 4.4..."}, {"arrows": "to", "dashes": true, "from": "Log Viewer version is 4.4...", "label": "evidenced_by", "to": "\"https://github.com/ARCANEDEV/LogViewer/issues/183\""}, {"arrows": "to", "from": "SecurityContext", "label": "asserts", "to": "Unauthenticated requests are h..."}, {"arrows": "to", "dashes": true, "from": "Unauthenticated requests are h...", "label": "evidenced_by", "to": "\"https://github.com/Romm17/FriendTreasuryAPI/issues/15\""}, {"arrows": "to", "from": "\u0280", "label": "asserts", "to": "\u0280 is the IPA symbol for an uvu..."}, {"arrows": "to", "dashes": true, "from": "\u0280 is the IPA symbol for an uvu...", "label": "evidenced_by", "to": "\"https://github.com/Anaphory/lexirumah-data/issues/7\""}, {"arrows": "to", "from": "r", "label": "asserts", "to": "R is one of the best statistic..."}, {"arrows": "to", "dashes": true, "from": "R is one of the best statistic...", "label": "evidenced_by", "to": "\"https://github.com/keeferrourke/la-capitaine-icon-theme/issues/256\""}, {"arrows": "to", "from": "calendar", "label": "asserts", "to": "format the calendar appearance..."}, {"arrows": "to", "dashes": true, "from": "format the calendar appearance...", "label": "evidenced_by", "to": "\"https://github.com/CS3398-Rust-Buckets/S2017/issues/23\""}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
