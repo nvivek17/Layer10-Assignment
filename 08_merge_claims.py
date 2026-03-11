@@ -37,6 +37,44 @@ def judge_relationship(claim_a, claim_b):
         time.sleep(60) 
         return "DIFFERENT"
 
+def identify_primary_entity(claim, issue_entities,registry):
+    """
+    HEURISTIC-FIRST SUBJECT IDENTIFICATION
+    Step 1: Simple string search for entity/aliases (Fast/Free)
+    Step 2: AI inference (Only if Step 1 fails)
+    """
+    if len(issue_entities) == 1:
+        return issue_entities[0]
+
+    claim_lower = claim.lower()
+    
+    # --- STEP 1: FAST PATH (String Matching) ---
+    for entity_name in issue_entities:
+        # Check canonical name
+        if entity_name.lower() in claim_lower:
+            return entity_name
+        
+        # Check all known aliases for this entity
+        aliases = registry.get(entity_name, {}).get('aliases', [])
+        for alias in aliases:
+            if alias.lower() in claim_lower:
+                return entity_name
+
+    # --- STEP 2: SLOW PATH (AI Fallback) ---
+    # Only runs if the claim uses pronouns like "it", "this", or "the app"
+    prompt = f"Claim: '{claim}'\nEntities: {issue_entities}\nWhich entity is the subject? Return ONLY the name.If you can't figure out what is the Name return None or issue error "
+    try:
+        response = client.chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model="llama-3.1-8b-instant"
+        )
+        return response.choices[0].message.content.strip()
+    except:
+        return issue_entities[0]
+
+
+
+
 with open("Data/deduped_artifacts.json", "r") as f:
     data = json.load(f)
 with open("Data/canonicalized_entities.json", "r") as f:
@@ -57,9 +95,9 @@ for issue in data:
     # Safe Entity Extraction
     issue_entities = []
     for ent in issue.get('entities', []):
-        name = ent.get('name')
+        name = ent.get('name')   
         if isinstance(name, str) and name.strip():
-            official = canonical_map.get(name.strip().lower(), name.strip())
+            official = canonical_map.get(name.strip().lower(), name.strip()) 
             if official not in issue_entities: issue_entities.append(official)
     
     if not issue_entities: issue_entities = ["General"]
@@ -72,7 +110,7 @@ for issue in data:
         
         match_found = False
 
-        for entity in issue_entities:
+        for entity in issue_entities: 
             if entity == "General": continue 
             if entity not in knowledge_graph: knowledge_graph[entity] = []
             
@@ -114,7 +152,8 @@ for issue in data:
                     # Allow the loop to finish so the new "Truth" is added as its own CURRENT node
 
         if not match_found:
-            target_entity = issue_entities[0]
+            # target_entity = issue_entities[0]
+            target_entity=identify_primary_entity(c,issue_entities,entity_registry)
             if target_entity not in knowledge_graph: knowledge_graph[target_entity] = []
             knowledge_graph[target_entity].append({
                 "text": new_text,
