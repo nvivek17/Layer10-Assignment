@@ -25,8 +25,8 @@ def clean_for_comparison(text):
 def generate_hash(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
-input_file = "Data/extracted_memory_complete.json"
-output_file = "Data/deduped_artifacts.json"
+input_file = "Data/extracted_memory_complete1.json"
+output_file = "Data/deduped_artifacts1.json"
 
 with open(input_file, "r") as f:
     data = json.load(f)
@@ -34,9 +34,9 @@ with open(input_file, "r") as f:
 print(f"Starting Artifact Deduplication on {len(data)} items...")
 
 # The Logic: Cluster by Similarity
-master_artifacts = [] # This will hold our 'Unique' messages
+# master_artifacts = [] # This will hold our 'Unique' messages
 duplicates_count = 0
-
+seen_hashes=dict()
 for item in data:
     body = item.get('body', '')
     cleaned_body = clean_for_comparison(body)
@@ -44,22 +44,21 @@ for item in data:
     is_duplicate = False
     reason=f""
     match_master=None
-    # Check current item against our 'Master' list
-    for master in master_artifacts:
-        # Check Hash
-        if generate_hash(cleaned_body) == generate_hash(master['_cleaned_body']):
-            is_duplicate = True
-            match_master = master
-            reason = "Exact Hash Match"
-            break
-        
-        #Check Fuzzy Similarity (Catches 'Near-Identical')
-        similarity = fuzz.ratio(cleaned_body, master['_cleaned_body'])
-        if similarity > 92:
-            is_duplicate = True
-            match_master = master
-            reason = f"Fuzzy Match ({similarity:.1f}%)"
-            break
+    _hash=generate_hash(cleaned_body)
+    # Check current item hash in our seen_hashes list
+    if _hash in seen_hashes:
+        is_duplicate=True
+        match_master=seen_hashes[_hash]
+        reason = "Exact Hash Match"
+    if not is_duplicate:
+        for master in seen_hashes.values():
+            #Check Fuzzy Similarity (Catches 'Near-Identical')
+            similarity = fuzz.ratio(cleaned_body, master['_cleaned_body'])
+            if similarity > 92:
+                is_duplicate = True
+                match_master = master
+                reason = f"Fuzzy Match ({similarity:.1f}%)"
+                break
 
     if is_duplicate and match_master is not None:
         # REVERSIBILITY: Don't delete. Add this URL to the master's record.
@@ -73,16 +72,16 @@ for item in data:
         # NEW UNIQUE ARTIFACT: We store the cleaned body temporarily for comparisons (deleted at end)
         item['_cleaned_body'] = cleaned_body 
         item['duplicate_sources'] = []
-        master_artifacts.append(item)
+        seen_hashes[_hash]=item
 
 #Clean up temporary fields and Save
-for m in master_artifacts:
+for m in seen_hashes.values():
     if '_cleaned_body' in m:
         del m['_cleaned_body']
 
 with open(output_file, "w") as f:
-    json.dump(master_artifacts, f, indent=4)
+    json.dump(list(seen_hashes.values()), f, indent=4)
 
 print(f"\nSUCCESS: Artifact Deduplication Complete.")
-print(f"Unique Artifacts Kept: {len(master_artifacts)}")
+print(f"Unique Artifacts Kept: {len(seen_hashes)}")
 print(f"Near-Duplicates Linked: {duplicates_count}")
